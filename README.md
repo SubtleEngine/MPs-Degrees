@@ -13,4 +13,4 @@ This is not elegant or particularly reliable code. Pull requests welcome!
 
 Run the script like this:
 
-``php ./MP_degrees.php`` or ``php ./MP_degrees.php | tee MP_Uni_output.csv`` if you want to see the (tab seperated) output.
+``php ./MP_degrees.php > MP_Uni_output.csv``
