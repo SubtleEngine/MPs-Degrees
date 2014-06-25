@@ -53,7 +53,7 @@ $subject_areas = array ( //Based on HESA subject area groups: http://www.hesa.ac
 //Mike_Weir_(politician)
 //Gareth_Thomas_(English_politician)
 
-echo "First name\tLast name\tParty\tPhrase\tOccupation\tSubject area\n"; //Header row
+echo "First name\tLast name\tParty\tUniversity\tPhrase\tOccupation\tSubject area\n"; //Header row
 
 while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
 
