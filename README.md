@@ -18,3 +18,5 @@ Run the script like this to save the output to a file:
 or use tee to see output while saving to a file:
 
 ``php ./MP_degrees.php | tee MP_Uni_output.tsv``
+
+The script takes a bit over 20 minutes to complete.

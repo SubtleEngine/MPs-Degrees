@@ -1,3 +1,4 @@
+First name	Last name	Party	Phrase	Occupation	Subject area
 Diane	Abbott	Labour	Newnham College, Cambridge	history	No occupation found	Historical & philosophical studies
 Debbie	Abrahams	Labour	University of Salford, University of Liverpool	biochemistry and physiology at the University of Salford, and her early employment was as a community worker for a charity in Wythenshawe in south Manchester, where she set up job training programmes for teenagers, for a Masters degree at the University of Liverpool	Public health consultant	Subjects allied to medicine
 Nigel	Adams	Conservative	Selby High School		No occupation found	
@@ -38,6 +39,8 @@ Henry	Bellingham	Conservative	Magdalene College, Cambridge	degree in law in 	No 
 Hilary	Benn	Labour	University of Sussex	in Russian and East European Studies	No occupation found	Languages
 Joe	Benton	Labour	No university found		No occupation found	
 Richard	Benyon	Conservative	Royal Agricultural College		No occupation found	
+
+Notice: Undefined index: - in /Users/Jamie/MPs Degrees/MP_degrees.php on line 155
 John	Bercow	-	University of Essex	from the University of Essex in , , with a first, Government from the University of Essex in , from university, Bercow was elected as the last National Chairman of the Federation of Conservative Students , edit	No occupation found	Social studies
 Paul	Beresford	Conservative	No university found		No occupation found	
 Luciana	Berger	Labour	University of Birmingham, Birkbeck, University of London	degree in Commerce and Spanish and spent a year studying in ICADE in Madrid, , Government, Politics and Policy	No occupation found	Social studies
@@ -68,7 +71,8 @@ Andrew	Bridgen	Conservative	Nottingham University	genetics and behaviour at Nott
 Steve	Brine	Conservative	University of Liverpool	History	No occupation found	Historical & philosophical studies
 James	Brokenshire	Conservative	University of Exeter	law at the University of Exeter before beginning work with a large international law firm, law at the University of Exeter	No occupation found	Law
 Annette	Brooke	Liberal Democrat	London School of Economics	BSc degree in Economics, as a teacher at Hughes Hall, Cambridge	No occupation found	Social studies
-Gordon	Brown	Labour	University of Edinburgh	, history at the same early age of sixteen, kick to the head and suffered a retinal detachment, from Edinburgh with First, history in , history , between , them a , edit	No occupation found	Historical & philosophical studies
+Gordon	Brown	Labour	University of Edinburgh	
+, history at the same early age of sixteen, kick to the head and suffered a retinal detachment, from Edinburgh with First, history in , history , between , them a , edit	No occupation found	Historical & philosophical studies
 Lyn	Brown	Labour	Roehampton University	crime fiction and walking	No occupation found	Other
 Nick	Brown	Labour	University of Manchester	at the University of Manchester	No occupation found	Other
 Russell	Brown	Labour	No university found		No occupation found	
@@ -112,7 +116,7 @@ Kenneth	Clarke	Conservative	Gonville and Caius College, Cambridge	law at Gonvill
 Tom	Clarke	Labour	No university found		No occupation found	
 Nicholas	Clegg	Liberal Democrat	No university found		No occupation found	
 Geoffrey	Clifton-Brown	Conservative	No university found		No occupation found	
-Ann	Clwyd	Labour	University of Wales, Bangor	or external links, but its sources remain unclear because it lacks inline citations, her a University of Wales honorary degree	No occupation found	Other
+Ann	Clwyd	Labour	University of Wales, Bangor[1]	or external links, but its sources remain unclear because it lacks inline citations, from the University of Wales, Bangor, her a University of Wales honorary degree	No occupation found	Other
 Vernon	Coaker	Labour	University of Warwick, Trent Polytechnic	for an Economics and Politics BA , PGCE at Trent Polytechnic 	Teacher	Social studies
 Ann	Coffey	Labour	London South Bank University	a BSc in Sociology in , PGCE in , as a teacher	No occupation found	Social studies
 Therese	Coffey	Conservative	Somerville College, University of Oxford	at Somerville College, Oxford, , PhD in Chemistry 	No occupation found	Physical sciences
@@ -210,9 +214,10 @@ Mark	Francois	Conservative	University of Bristol	a Bachelor of Arts degree in Hi
 George	Freeman	Conservative	Girton College, Cambridge	with a degree in Geography in 	No occupation found	Social studies
 Mike	Freer	Conservative	No university found		No occupation found	
 Lorraine	Fullbrook	Conservative	Glasgow Caledonian University		No occupation found	
-Richard	Fuller	Conservative	University College, Oxford; Harvard Business School	Politics, Philosophy 	Member of Parliament	Social studies
+Richard	Fuller	Conservative	No university found		No occupation found	
 Roger	Gale	Conservative	Guildhall School of Music and Drama		Broadcaster, Disc jockey, television producer, radio producer and journalist	
-George	Galloway	Respect	No university found	him Debater of the Year in , , damages of , Palestinian passport from Hamas leader Ismail Haniya, edit	No occupation found	Other
+George	Galloway	Respect	No university found	him Debater of the Year in , 
+, damages of , Palestinian passport from Hamas leader Ismail Haniya, edit	No occupation found	Other
 Mike	Gapes	Labour	Fitzwilliam College, Cambridge	a master, economics in , diploma in industrial relations in 	No occupation found	Social studies
 Barry	Gardiner	Labour	University of St Andrews	a Kennedy Memorial Trust scholarship to study Philosophy at Harvard University 	No occupation found	Historical & philosophical studies
 Edward	Garnier	Conservative	Jesus College, Oxford	with a Bachelor of Arts degree in modern history in , at the College of Law at Chancery Lane in the City of London, nationally to failed Company Pension Scheme workers	Politician	Law
@@ -313,7 +318,7 @@ Margot	James	Conservative	London School of Economics	Economics and Government	No
 Siân	James	Labour	No university found		No occupation found	
 Cathy	Jamieson	Labour	Glasgow School of Art		No occupation found	
 Dan	Jarvis	Labour	Aberystwyth University	international politics at Aberystwyth University, in , International Politics and Strategic Studies, with an MA in Conflict, Security 	Member of Parliament	Social studies
-Sajid	Javid	Conservative	South Gloucestershire and Stroud College	economics and politics, and became a member of the Conservative Party	No occupation found	Social studies
+Sajid	Javid	Conservative	University of Exeter	economics and politics, and became a member of the Conservative Party	No occupation found	Social studies
 Bernard	Jenkin	Conservative	Corpus Christi College, Cambridge	a Choral Exhibition and gained an BA honours degree in English literature in 	Member of Parliament (1992-present)	Languages
 Robert	Jenrick	Conservative	St John's College, Cambridge	History at St John, 	No occupation found	Historical & philosophical studies
 Alan	Johnson	Labour	No university found	to children	No occupation found	Other
@@ -354,10 +359,10 @@ Jessica	Lee	Conservative	Royal Holloway, University of London; College of Law	wi
 Phillip	Lee	Conservative	King's College London	Human Biology and Biological Anthropology at King, medicine at Imperial College London, as a general practitioner 	Physician	Medicine & dentistry
 John	Leech	Liberal Democrat	Brunel University	History and Politics and also joined the Liberal Democrat Party	No occupation found	Social studies
 Jeremy	Lefroy	Conservative	King's College, Cambridge		No occupation found	
-Edward	Leigh	Conservative	Durham University	reputation owing to his staunch opposition to abortion, contraception and controversial genetic research, for his support of capital punishment and for his defence of Section , History , as a barrister at the Inner Temple, and practised in arbitration and criminal law as a member of Goldsmiths Chambers, barrister and an Assembly Member of the Council of Europe, 	Politician	Law
+Edward	Leigh	Conservative	Durham University	reputation owing to his opposition to abortion and controversial genetic research, and for his defence of Section , History , as a barrister at the Inner Temple, and practised in arbitration and criminal law as a member of Goldsmiths Chambers, barrister and an Assembly Member of the Council of Europe, 	Politician	Law
 Charlotte	Leslie	Conservative	Balliol College, Oxford	Classics at Balliol College, Oxford, in 	No occupation found	Historical & philosophical studies
 Christopher	Leslie	Labour	No university found		No occupation found	
-Oliver	Letwin	Conservative	Trinity College, Cambridge	at Trinity College, Cambridge, by the Cambridge Philosophy Faculty in 	No occupation found	Historical & philosophical studies
+Oliver	Letwin	Conservative	Eton College	at Trinity College, Cambridge, by the Cambridge Philosophy Faculty in 	No occupation found	Historical & philosophical studies
 Emma	Lewell-Buck	Labour	Northumbria University	politics and media studies at Northumbria University, , Masters degree in social work from Durham University	No occupation found	Social studies
 Brandon	Lewis	Conservative	Forest School	degree in economics from the University of Buckingham, , barrister	Politician	Social studies
 Ivan	Lewis	Labour	No university found		No occupation found	
@@ -398,7 +403,8 @@ Gregg	McClymont	Labour	University of Glasgow	History at the University of Glasgo
 William	McCrea	DUP	Raveanhill Theological Hall		Clergyman	
 Siobhain	McDonagh	Labour	University of Essex	Politics at the University of Essex	No occupation found	Social studies
 Andrew	McDonald	Labour	No university found		No occupation found	
-Alasdair	McDonnell	Social Democratic and Labour Party	University College Dublin	in , in OLSPCK in BelfastReferences edit	Politician	Other
+Alasdair	McDonnell	Social Democratic and Labour Party	University College Dublin	in , in OLSPCK in Belfast
+References edit	Politician	Other
 John	McDonnell	Labour	Brunel University	for A	No occupation found	Other
 Pat	McFadden	Labour	University of Edinburgh	Politics at the University of Edinburgh, gaining an MA in 	No occupation found	Social studies
 Alison	McGovern	Labour	University College London	Philosophy at University College London	No occupation found	Historical & philosophical studies
@@ -442,7 +448,7 @@ David	Mundell	Conservative	University of Edinburgh	Law at the University of Edin
 Meg	Munn	Labour	University of Nottingham, University of York	languages at the University of York receiving a BA , Certificate and Diploma in Management Studies from the Open University and in , Chartered Manager status by the Chartered Management Institute	No occupation found	Business & administrative studies
 Tessa	Munt	Liberal Democrat	No university found		No occupation found	
 Conor	Murphy	Sinn Fein	University of Ulster, Queen's University of Belfast		No occupation found	Other
-Jim	Murphy	Labour	No university found	Politics and European Law at the University of Strathclyde	No occupation found	Social studies
+Jim	Murphy	Labour	University of Strathclyde (did not graduate)	Politics and European Law at the University of Strathclyde, although in the event he did not graduate after 	None	Social studies
 Paul	Murphy	Labour	No university found		No occupation found	
 Ian	Murray	Labour	No university found		No occupation found	
 Sheryll	Murray	Conservative	No university found		No occupation found	

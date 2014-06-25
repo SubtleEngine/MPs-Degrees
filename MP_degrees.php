@@ -53,7 +53,10 @@ $subject_areas = array ( //Based on HESA subject area groups: http://www.hesa.ac
 //Mike_Weir_(politician)
 //Gareth_Thomas_(English_politician)
 
+echo "First name\tLast name\tParty\tPhrase\tOccupation\tSubject area\n"; //Header row
+
 while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
+
     if ($mp[1] != "First name") { //Ignore the header row
     
         $first_name = $mp[1];
@@ -205,9 +208,10 @@ while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
         }
         
         if (isset($degree_matches[2])) {
+            str_replace("\n", "", $degree_matches[2]); //Strip newlines
             echo "\t".implode(", ", $degree_matches[2]); //Ouput degree if found
         } else {
-            echo "\tNo degree found";
+            echo "\tNo phrase found";
         }
         
         if (isset($occupation_matches[2])) {
@@ -228,9 +232,11 @@ while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
     
 }
 
-echo "\n\n";
-
 //Output the results by party
+
+/* //Uncomment this section for results table by party
+
+echo "\n\n";
 
 echo "Subject Area\t";
 
@@ -253,5 +259,7 @@ echo "\n\n";
 foreach ($other as $key => $value) {
     //echo "$key\t".implode(";",$value)."\n"; //For checking uncategorised degrees
 }
+
+*/
 
 ?>
