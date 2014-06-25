@@ -13,8 +13,8 @@ This is not elegant or particularly reliable code. Pull requests welcome!
 
 Run the script like this to save the output to a file:
 
-``php ./MP_degrees.php > MP_Uni_output.csv``
+``php ./MP_degrees.php > MP_Uni_output.tsv``
 
 or use tee to see output while saving to a file:
 
-``php ./MP_degrees.php | tee MP_Uni_output.csv``
+``php ./MP_degrees.php | tee MP_Uni_output.tsv``
