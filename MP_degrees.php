@@ -53,7 +53,7 @@ $subject_areas = array ( //Based on HESA subject area groups: http://www.hesa.ac
 //Mike_Weir_(politician)
 //Gareth_Thomas_(English_politician)
 
-echo "First name\tLast name\tParty\tUniversity\tPhrase\tOccupation\tSubject area\n"; //Header row
+echo "First name\tLast name\tParty\tUniversity\tSubject area\tPhrase\tOccupation\n"; //Header row
 
 while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
 
@@ -99,7 +99,7 @@ while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
         
         //print_r($degree_matches);
         
-        if (isset($degree_matches[2]) && !empty($degree_matches[2])) {
+        if (isset($degree_matches[2]) && !empty($degree_matches[2]) && is_array($degree_matches[2])) {
         
             if (preg_match("/medicine|medical|doctor/im", implode(", ",$degree_matches[2]))) {
                 ++$subject_areas["Medicine & dentistry"][$mp[3]];
@@ -207,6 +207,12 @@ while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
             echo "\tNo university found";
         }
         
+        if (isset($subject_area)) {
+            echo "\t".$subject_area; //Output subject area if found
+        } else {
+            echo "\tNo category found";
+        }
+        
         if (isset($degree_matches[2])) {
             $degree_matches[2] = str_replace("\n", "", $degree_matches[2]); //Strip newlines
             echo "\t".implode(", ", $degree_matches[2]); //Ouput degree if found
@@ -218,12 +224,6 @@ while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
             echo "\t".$occupation_matches[2]; //Output occupation if found
         } else {
             echo "\tNo occupation found";
-        }
-        
-        if (isset($subject_area)) {
-            echo "\t".$subject_area; //Output subject area if found
-        } else {
-            echo "\tNo category found";
         }
         
         echo "\n";
