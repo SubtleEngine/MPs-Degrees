@@ -208,7 +208,7 @@ while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
         }
         
         if (isset($degree_matches[2])) {
-            str_replace("\n", "", $degree_matches[2]); //Strip newlines
+            $degree_matches[2] = str_replace("\n", "", $degree_matches[2]); //Strip newlines
             echo "\t".implode(", ", $degree_matches[2]); //Ouput degree if found
         } else {
             echo "\tNo phrase found";
