@@ -301,15 +301,7 @@ George	Howarth	Labour	University of Salford	Other	at the University of Salford	E
 Gerald	Howarth	Conservative	University of Southampton	Other	private pilot, he was commissioned into the Royal Air Force Volunteer Reserve as an acting pilot officer in , , out a fairly ridiculous statement	No occupation found
 John	Howell	Conservative	No university found			No occupation found
 Lindsay	Hoyle	Labour	No university found			Politician
-
-Warning: file_get_contents(http://en.wikipedia.org/w/api.php?action=parse&prop=text&format=json&page=Simon_Hughes): failed to open stream: Operation timed out in /Users/Jamie/MPs Degrees/MP_degrees.php on line 68
-
-Notice: Trying to get property of non-object in /Users/Jamie/MPs Degrees/MP_degrees.php on line 69
-
-Notice: Trying to get property of non-object in /Users/Jamie/MPs Degrees/MP_degrees.php on line 69
-
-Notice: Trying to get property of non-object in /Users/Jamie/MPs Degrees/MP_degrees.php on line 69
-Simon	Hughes	Liberal Democrat	No university found			No occupation found
+Simon	Hughes	Liberal Democrat	Selwyn College, Cambridge	Other	with a , postgraduate Certificate of Advanced European Studies 	No occupation found
 Jeremy	Hunt	Conservative	No university found			No occupation found
 Tristram	Hunt	Labour	University College School	Social studies	History at Trinity College, Cambridge and the University of Chicago, and was for a time an Associate Fellow of the Centre for History and Economics at King, in , number of favourable reviews, including one from Roy Hattersley, the former deputy leader of the Labour party, in The Observer	Historian, broadcaster, columnist, politician
 Mark	Hunter	Liberal Democrat	No university found			No occupation found
