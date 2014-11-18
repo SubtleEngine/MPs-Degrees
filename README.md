@@ -9,7 +9,7 @@ This PHP script:
 
 See the results of the script here: http://subtleengine.org/2014/06/28/mps-degrees-what-do-they-know/
 
-#Update#
+###Update###
 
 There's now a similar script for the Lords. See the results here: http://subtleengine.org/2014/11/18/lords-degrees/
 
