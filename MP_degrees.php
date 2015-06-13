@@ -19,7 +19,8 @@ $tallies = array ( //Based on parties in They Work for You's .csv
     "Respect" => 0,
     "Scottish National Party" => 0,
     "Sinn Fein" => 0,
-    "Social Democratic and Labour Party" => 0
+    "Social Democratic and Labour Party" => 0,
+    "UKIP" => 0
 );
 
 $subject_areas = array ( //Based on HESA subject area groups: http://www.hesa.ac.uk/dox/dataTables/studentsAndQualifiers/download/Subject1213.xlsx
@@ -57,11 +58,18 @@ echo "First name\tLast name\tParty\tUniversity\tSubject area\tPhrase\tOccupation
 
 while (($mp = fgetcsv($mp_list, 1000, ",")) !== FALSE) {
 
-    if ($mp[1] != "First name") { //Ignore the header row
+    if ($mp[1] != "First name" && $mp[3] != "Speaker") { //Ignore the header row and Speaker
     
         $first_name = $mp[1];
         $last_name = str_replace(" ", "_", $mp[2]); //Replace any spaces with underscores e.g. for Nick_de_Bois
         
+        if (strpos($mp[3],"Co-operative")){
+            $mp[3] = "Labour";
+        }
+        if (strpos($mp[3],"inn")){ // Odd unicode character
+            $mp[3] = "Sinn Fein";
+        }
+
         $subject_area = "";
         unset($degree_matches);
         
